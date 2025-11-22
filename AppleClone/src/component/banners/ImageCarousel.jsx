@@ -93,6 +93,8 @@ const ImageCarousel = () => {
         <img className='w-full ' src="https://picsum.photos/500/300?3" alt="Image 3" />
       </SplideSlide>
     </Splide>
+
+    <h1> hello world</h1>
     </div>
   );
 
