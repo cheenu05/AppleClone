@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
 
-      <nav className=" sm:justify-center flex bg-[#1c1c1c] text-white items-center justify-between p-2 w-full h-11 sticky top-0 left-0  z-20 gap-10">
+      <nav className={` ${styles.navbarbg} sm:justify-center flex  text-white items-center justify-between p-2 w-full h-11 sticky top-0 left-0  z-20 gap-10`}>
         <div>
           <Link to="/">
             <FontAwesomeIcon
