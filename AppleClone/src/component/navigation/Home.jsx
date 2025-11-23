@@ -25,7 +25,6 @@ const Home = () => {
         <IpadAir />
         <Products />
         <ImageCarousel />
-        <Iphone />
         
     </>
   )
