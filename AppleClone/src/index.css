@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @import '@splidejs/react-splide/css';
+
+button:hover{
+    cursor: pointer;
+} 

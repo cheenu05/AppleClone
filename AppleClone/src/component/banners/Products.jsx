@@ -5,10 +5,10 @@ const Products = () => {
         <>
             {/* airPods pro 3 */}
 
-            <div className="grid sm:grid-cols-2 grid-rows-3 bg-pink-200 ">
+            <div className="grid sm:grid-cols-2 grid-rows-3 ">
                 <div className="p-2">
 
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
                         <h1 className=' text-black text-5xl font-semibold mt-12' >AirPods Pro 3</h1>
                         <div className='flex flex-col items-center'>
                             <h3 className=' text-black text-2xl ' >The world's best in ear.</h3>
@@ -16,7 +16,7 @@ const Products = () => {
                         </div>
                         <div className=' flex gap-4 ' >
                             <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Learn more</button>
-                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 ' >Buy</button>
+                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600  hover:text-white' >Buy</button>
                         </div>
                     </div>
 
@@ -28,14 +28,14 @@ const Products = () => {
 
                 <div className=" p-2">
 
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
 
                         <h1 className=' text-black text-5xl font-semibold mt-12' > Watch Series 11 </h1>
                         <h3 className=' text-black text-2xl ' >The ultimate watch for healthy life.</h3>
 
                         <div className=' flex gap-4 ' >
                             <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Learn more</button>
-                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 ' >Buy</button>
+                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600  hover:text-white' >Buy</button>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@ const Products = () => {
 
                 {/* ipad pro */}
                 <div className=" p-2">
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
 
                         <h1 className=' text-black text-5xl font-semibold mt-12' >iPad Pro</h1>
                         <div className='flex flex-col items-center'>
@@ -54,7 +54,7 @@ const Products = () => {
 
                         <div className=' flex gap-4 ' >
                             <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Learn more</button>
-                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 ' >Buy</button>
+                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 hover:text-white' >Buy</button>
                         </div>
                     </div>
                 </div>
@@ -64,12 +64,12 @@ const Products = () => {
                 {/* MacBook pro 14 */}
 
                 <div className=" p-2">
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
                         <h1 className=' text-black text-5xl font-semibold mt-12' > MacBook Pro 14 </h1>
                         <h3 className=' text-black text-2xl ' > Supercharged by M5. </h3>
                         <div className=' flex gap-4 ' >
                             <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Learn more</button>
-                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 ' >Buy</button>
+                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 hover:text-white' >Buy</button>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const Products = () => {
 
                 {/* Macbook air */}
                 <div className="p-2">
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
 
                         <h1 className=' text-black text-5xl font-semibold mt-12' >MacBook Air</h1>
 
@@ -89,7 +89,7 @@ const Products = () => {
 
                         <div className=' flex gap-4 ' >
                             <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Learn more</button>
-                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 ' >Buy</button>
+                            <button className='border-2 border-blue-400 text-blue-400 px-5 py-2 rounded-full hover:bg-blue-600 hover:text-white' >Buy</button>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ const Products = () => {
                 {/* Trade In  */}
 
                 <div className=" p-2">
-                    <div className='w-full h-[500px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
+                    <div className='w-full h-[600px] bg-[url("")] bg-center bg-cover flex flex-col items-center gap-3 bg-gray-200'>
                         <h1 className=' text-black text-5xl font-semibold mt-12' >Trade In</h1>
 
                         <div className='flex flex-col items-center'>
@@ -106,7 +106,7 @@ const Products = () => {
                             <h3 className='text-black text-2xl'> it's that easy.</h3>
                         </div>
 
-                        <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 ' >Get your estimate</button>
+                        <button className=' bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-800 hover:text-white' >Get your estimate</button>
 
 
                     </div>

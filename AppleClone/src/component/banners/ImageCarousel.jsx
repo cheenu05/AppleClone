@@ -13,7 +13,7 @@ const ImageCarousel = () => {
         gap: '1rem',
         autoplay: true,
         width: '100%',
-        height:'600px',
+        height:'525px',
         objectFit:'cover',
       
       }}
