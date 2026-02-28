@@ -1,5 +1,5 @@
 import React from 'react'
-import Render from './render'
+import Render from './Render'
 
 function App() {
 

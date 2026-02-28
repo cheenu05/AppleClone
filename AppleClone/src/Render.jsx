@@ -8,7 +8,7 @@ import Ipad from './component/navigation/Ipad';
 import Iphone from './component/navigation/Iphone';
 import Watch from './component/navigation/Watch';
 import Airpods from './component/navigation/Airpods';
-import Tvandhome from './component/navigation/Tvandhome';
+import TvandHome from './component/navigation/TvandHome';
 import Entertainment from './component/navigation/Entertainment';
 import Accessories from './component/navigation/Accessories';
 import Support from './component/navigation/Support';
@@ -28,7 +28,7 @@ const Render = () => {
                     <Route path='/iphone' element={<Iphone />} />
                     <Route path='/watch' element={<Watch />} />
                     <Route path='/airpods' element={<Airpods />} />
-                    <Route path='/tvandhome' element={<Tvandhome />} />
+                    <Route path='/tvandhome' element={<TvandHome />} />
                     <Route path='/entertainment' element={<Entertainment />} />
                     <Route path='/accessories' element={<Accessories />} />
                     <Route path='/support' element={<Support />} />
